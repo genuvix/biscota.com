@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biscota — Software, built and looked after</title>
+  <meta name="description" content="Biscota is a small software company. We design, build and maintain web applications and internal tools for businesses.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Site styles (loaded after Bootstrap so they take priority) -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-md sticky-top site-header">
+    <div class="container">
+      <!-- Logo: replace images/logo.svg with your own file (SVG or PNG) -->
+      <a class="navbar-brand" href="#top">
+        <img class="site-logo" src="images/logo.svg" alt="Biscota">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#process">How we work</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link nav-contact" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="row gx-4 gy-5 align-items-center">
+          <div class="col-lg-6">
+            <p class="eyebrow">Software company</p>
+            <h1>We build software for businesses, and we stay to look after it.</h1>
+            <p class="lede">
+              Biscota designs and develops web applications, internal tools and the systems
+              behind them. We work with a small number of clients at a time, so the people
+              you meet at the start are the people who write the code.
+            </p>
+            <div class="d-flex flex-wrap align-items-center gap-4">
+              <a class="btn btn-ink" href="#contact">Start a conversation</a>
+              <a class="text-link" href="#services">See what we do</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <figure class="hero-photo">
+              <img src="https://images.unsplash.com/photo-1763568258129-3e019ef91b75?w=1200&q=80&auto=format&fit=crop"
+                   alt="Laptop with code on a desk next to a plant and a coffee cup">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <p class="eyebrow">Services</p>
+        <h2 class="section-title">What we do</h2>
+
+        <div class="row gx-4">
+          <div class="col-md-6">
+            <div class="service">
+              <span class="num">01</span>
+              <div>
+                <h3>Web applications</h3>
+                <p>Customer portals, booking systems, dashboards and other software people use in a browser every day. Built to be fast, accessible and easy to change later.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service">
+              <span class="num">02</span>
+              <div>
+                <h3>Internal tools</h3>
+                <p>Replacements for the spreadsheets, shared inboxes and manual steps that slow a team down. Small, focused tools that fit how your staff already work.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service">
+              <span class="num">03</span>
+              <div>
+                <h3>Integrations and back ends</h3>
+                <p>APIs, data pipelines and connections between the systems you already pay for, so information is entered once and ends up where it needs to be.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service">
+              <span class="num">04</span>
+              <div>
+                <h3>Maintenance and support</h3>
+                <p>Updates, monitoring, bug fixes and small improvements on a monthly arrangement. We also take over existing codebases from other teams.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo strip -->
+    <section class="photo-strip">
+      <div class="container">
+        <div class="row gx-4 gy-4">
+          <div class="col-md-4">
+            <figure class="photo">
+              <img src="https://images.unsplash.com/photo-1625297673326-14790108da55?w=800&q=80&auto=format&fit=crop"
+                   alt="Person typing on a laptop at a wooden desk" loading="lazy">
+              <figcaption>Planning</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <figure class="photo photo-offset">
+              <img src="https://images.unsplash.com/photo-1621361365424-06f0e1eb5c49?w=800&q=80&auto=format&fit=crop"
+                   alt="Laptop showing source code on a white table" loading="lazy">
+              <figcaption>Building</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <figure class="photo">
+              <img src="https://images.unsplash.com/photo-1759884247144-53d52c31f859?w=800&q=80&auto=format&fit=crop"
+                   alt="Developer working on a laptop" loading="lazy">
+              <figcaption>Looking after it</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">Process</p>
+        <h2 class="section-title">How a project runs</h2>
+
+        <div class="row gx-4 gy-5">
+          <div class="col-sm-6 col-lg-3">
+            <div class="step step-first">
+              <span class="step-label">Week 1–2</span>
+              <h3>Understand the problem</h3>
+              <p>We talk to the people who will use the software, look at what exists today and write down what the first version needs to do. You get a short written scope and a fixed estimate.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="step">
+              <span class="step-label">Ongoing</span>
+              <h3>Build in small pieces</h3>
+              <p>Work is delivered every one to two weeks to a test environment you can open and click through. You see progress early and can change direction without losing much.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="step">
+              <span class="step-label">Launch</span>
+              <h3>Release carefully</h3>
+              <p>We move data, train your team where it's needed and release in stages. Nothing goes live on a Friday afternoon.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="step">
+              <span class="step-label">After</span>
+              <h3>Keep it running</h3>
+              <p>Most clients stay on a support plan. If you'd rather take the work in-house, we hand over the code, documentation and access, and walk your developers through it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row gx-4 gy-5">
+          <div class="col-lg-5">
+            <p class="eyebrow">About</p>
+            <h2 class="section-title">A small company, on purpose</h2>
+            <figure class="photo about-photo">
+              <img src="https://images.unsplash.com/photo-1573497701240-345a300b8d36?w=900&q=80&auto=format&fit=crop"
+                   alt="A small team talking around a table" loading="lazy">
+            </figure>
+          </div>
+          <div class="col-lg-7">
+            <p class="body-large">
+              Biscota is a small team of developers and designers. We keep it that way so that
+              every project gets experienced people rather than whoever happens to be free.
+            </p>
+            <p class="body-large">
+              We prefer plain, well-tested technology over whatever is new this year. The software
+              we write should still be easy to read and change in five years, whether we are the
+              ones maintaining it or not.
+            </p>
+            <ul class="facts">
+              <li><span>You own</span> all code and designs we produce for you.</li>
+              <li><span>You talk to</span> the people doing the work, not an account manager.</li>
+              <li><span>You get</span> written estimates before work starts, and invoices that match them.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="row gx-4 gy-5 align-items-end">
+          <div class="col-lg-7">
+            <p class="eyebrow">Contact</p>
+            <h2 class="section-title mb-4">Tell us what you're working on.</h2>
+            <p class="contact-note">
+              A few sentences is enough: what the software should do, who uses it, and any
+              deadline. We reply within two working days.
+            </p>
+          </div>
+          <div class="col-lg-5">
+            <a class="contact-email" href="mailto:hello@biscota.com">hello@biscota.com</a>
+            <p class="small-muted">Prefer a call? Mention it in your email and suggest a time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+      <img class="site-logo site-logo-small" src="images/logo.svg" alt="Biscota">
+      <span class="small-muted">© <span id="year">2026</span> Biscota. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
